@@ -72,6 +72,11 @@ input, select, textarea {
 	appearance: none;
 }
 
+#home {
+	padding-top: 1.5rem;
+	border	
+}
+
 /* Basic */
 
 	@-ms-viewport {
@@ -3783,3 +3788,5 @@ input, select, textarea {
 			}
 
 		}
+
+		
