@@ -72,9 +72,40 @@ input, select, textarea {
 	appearance: none;
 }
 
+/* Custom CSS*/
 #home {
 	padding-top: 1.5rem;
-	border	
+}
+
+#da-site {
+	font-weight: bold;
+	color: palevioletred;
+}
+
+#deadline {
+	font-size: 1.8rem;
+	font-weight: bold;
+	color: rgb(169, 96, 191);
+}
+
+#register {
+	padding-bottom: 3rem;
+	text-align: center;
+}
+
+#tiers {
+	padding-bottom: 2.5rem;
+}
+
+.logos {
+	width: 250px;
+	padding: 2rem;
+	padding-right: 5.5rem;
+	vertical-align: middle;
+}
+
+#ischool {
+	width: 375px;
 }
 
 /* Basic */
@@ -2863,6 +2894,73 @@ input, select, textarea {
 					}
 
 		}
+
+/* Features Two */
+
+.features-two {
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-moz-flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-moz-justify-content: center;
+	-webkit-justify-content: center;
+	-ms-justify-content: center;
+	justify-content: center;
+	width: calc(100% + 2em);
+	margin: 0 0 3em -2em;
+	padding: 0;
+	list-style: none;
+}
+
+	.features-two li {
+		width: calc(40% - 2em);
+		margin-left: 2em;
+		margin-top: 3em;
+		padding: 0;
+	}
+
+		.features-two li:nth-child(1), .features-two li:nth-child(2), .features-two li:nth-child(3) {
+			margin-top: 0;
+		}
+
+		.features-two li > :last-child {
+			margin-bottom: 0;
+		}
+
+	@media screen and (max-width: 980px) {
+
+		.features-two li {
+			width: calc(50% - 2em);
+		}
+
+			.features-two li:nth-child(3) {
+				margin-top: 3em;
+			}
+
+	}
+
+	@media screen and (max-width: 736px) {
+
+		.features-two {
+			width: 100%;
+			margin: 0 0 2em 0;
+		}
+
+			.features-two li {
+				width: 100%;
+				margin-left: 0;
+				margin-top: 2em;
+			}
+
+				.features-two li:nth-child(2), .features-two li:nth-child(3) {
+					margin-top: 2em;
+				}
+
+	}
 
 /* Statistics */
 
