@@ -106,10 +106,22 @@ input, select, textarea {
 }
 
 #ischool {
-	width: 375px;
+	width: 250px;
+	height: 6.5rem;
 }
 
+#omad {
+	width: 250px;
+	/* margin-left: -2.75rem; */
+}
 
+#hub {
+	width: 250px;
+}
+
+#sao {
+	width: 250px;
+}
 
 /* Basic */
 
