@@ -105,22 +105,6 @@ input, select, textarea {
 	vertical-align: middle;
 }
 
-#ischool {
-	width: 300px;
-}
-
-#omad {
-	width: 250px;
-}
-
-#hub {
-	width: 250px;
-}
-
-#sao {
-	width: 250px;
-}
-
 /* Basic */
 
 	@-ms-viewport {
